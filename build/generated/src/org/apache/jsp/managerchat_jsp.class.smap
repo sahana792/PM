@@ -1,0 +1,18 @@
+SMAP
+managerchat_jsp.java
+JSP
+*S JSP
+*F
++ 0 managerchat.jsp
+managerchat.jsp
++ 1 chatdata.jsp
+chatdata.jsp
+*L
+1:49
+1#1:50
+4,16:53
+19:69
+2#0,24:70
+26,4:95
+29,18:99
+*E

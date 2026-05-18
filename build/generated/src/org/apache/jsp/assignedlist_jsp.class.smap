@@ -1,0 +1,20 @@
+SMAP
+assignedlist_jsp.java
+JSP
+*S JSP
+*F
++ 0 assignedlist.jsp
+assignedlist.jsp
++ 1 mhome.jsp
+mhome.jsp
+*L
+1,6:53
+1#1,302:58
+6#0,128:359
+134,9:488
+142,2:497
+144,11:499,3
+155,3:532
+158,5:536
+162,8:541
+*E

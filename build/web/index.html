@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Project Management Login</title>
+    <style>
+      body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #001233, #004d66, #00ffcc);
+  background-size: 300% 300%;
+  animation: wave 10s ease infinite;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: #e0f7f4;
+}
+@keyframes wave {
+  0%, 100% { background-position: left top; }
+  50% { background-position: right bottom; }
+}
+
+
+/* Subtle animated background glow */
+body::before {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(0,255,204,0.2) 0%, transparent 70%);
+    top: 10%;
+    left: 70%;
+    filter: blur(80px);
+    z-index: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    background: rgba(0, 18, 51, 0.75);
+    padding: 60px 70px;
+    border-radius: 20px;
+    box-shadow: 0 8px 35px rgba(0, 255, 204, 0.3);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 255, 204, 0.2);
+    z-index: 1;
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 45px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    text-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
+}
+
+.btn {
+    display: block;
+    width: 260px;
+    margin: 18px auto;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(135deg, #003366, #00b3a4);
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 15px rgba(0, 255, 204, 0.25);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 0; left: -75px;
+    width: 50px; height: 100%;
+    background: rgba(255,255,255,0.2);
+    transform: skewX(-25deg);
+    transition: 0.7s;
+}
+
+.btn:hover::before {
+    left: 300px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #004080, #00ffcc);
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.6);
+}
+
+.footer {
+    color: #aeeeee;
+    margin-top: 35px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+.footer a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #80ffee;
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Project Management System</h1>
+
+        <!-- Buttons for different roles -->
+        <form action="admin.jsp" method="post">
+            <input type="hidden" name="role" value="admin">
+            <button type="submit" class="btn">Login as Admin</button>
+        </form>
+
+        <form action="mlogin.jsp" method="post">
+            <input type="hidden" name="role" value="manager">
+            <button type="submit" class="btn">Login as Manager</button>
+        </form>
+
+        <form action="emplogin.jsp" method="post">
+            <input type="hidden" name="role" value="employee">
+            <button type="submit" class="btn">Login as Employee</button>
+        </form>
+        
+        <form action="clogin.jsp" method="post">
+            <input type="hidden" name="role" value="client">
+            <button type="submit" class="btn">Login as Client</button>
+        </form>
+
+        <div class="footer">
+            <p>© 2025 Project Management System</p>
+        </div>
+    </div>
+
+</body>
+</html>

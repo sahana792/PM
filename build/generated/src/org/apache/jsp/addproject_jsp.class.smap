@@ -1,0 +1,22 @@
+SMAP
+addproject_jsp.java
+JSP
+*S JSP
+*F
++ 0 addproject.jsp
+addproject.jsp
++ 1 clientheader.jsp
+clientheader.jsp
+*L
+5,4:49
+5#1,258:52
+8#0,146:310
+154,4:457
+157,5:461
+162,2:467
+163,15:469
+178:484,3
+179,68:487
+247:555,3
+248,4:558
+*E

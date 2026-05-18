@@ -1,0 +1,26 @@
+SMAP
+admindashboard_jsp.java
+JSP
+*S JSP
+*F
++ 0 admindashboard.jsp
+admindashboard.jsp
++ 1 adminheader.jsp
+adminheader.jsp
+*L
+1,4:51
+1#1,314:54
+4#0,112:367
+116,41:480
+156,13:521
+169:534,3
+170,2:537
+172:539,3
+173,33:542
+206,23:576
+228,3:599
+231,5:602,3
+236,3:617
+238,7:620
+244,7:627
+*E
