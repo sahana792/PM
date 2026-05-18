@@ -21,3 +21,14 @@ Sahana
 
 ## Live Demo
 https://prodigal-stitch-widget.ngrok-free.dev/PM/
+
+
+## 📌 Project Highlights
+
+- Role-based login system
+- Admin dashboard
+- Employee management system
+- Project tracking module
+- Task assignment & progress monitoring
+- MySQL database integration
+- JSP + Servlets architecture
