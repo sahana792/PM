@@ -1,34 +1,13 @@
-# PM - Project Management System
+## 🚀 Live Demo
+**Live Link:** https://pm-project-9yhu.onrender.com
+**Admin Login:** `Admin` / `123`
 
-A Java-based Project Management System developed using NetBeans, JSP, Servlets, and MySQL.
+### Tech Stack
+- Backend: PHP + MySQL
+- Database: Clever Cloud MySQL
+- Hosting: Render
 
-## Features
+### Features
 - Admin Dashboard
-- Employee Management
-- Project Tracking
-- Task Assignment
-- Progress Monitoring
-
-## Technologies Used
-- Java
-- JSP & Servlets
-- MySQL
-- HTML/CSS
-- NetBeans IDE
-
-## Author
-Sahana
-
-## Live Demo
-https://prodigal-stitch-widget.ngrok-free.dev/PM/
-
-
-## 📌 Project Highlights
-
-- Role-based login system
-- Admin dashboard
-- Employee management system
-- Project tracking module
-- Task assignment & progress monitoring
-- MySQL database integration
-- JSP + Servlets architecture
+- [Add your 2-3 main features here]
+- Live database - data saves permanently
